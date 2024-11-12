@@ -11,6 +11,29 @@
 Ce projet est un exemple d'automatisation d'un formulaire de contact sur un site web personnel. Utilisant **Selenium WebDriver** en combinaison avec **Python**, le script remplit automatiquement les champs du formulaire et soumet les données.
 
 ---
+### 🗄️ **Stockage des données**
+Les informations soumises via le formulaire sont stockées dans une base de données **SQLite** (`form_data.db`). La base de données contient une table appelée `form_submissions` avec les champs suivants :
+
+- `id` : Identifiant unique (INTEGER, PRIMARY KEY)
+- `name` : Nom de l'utilisateur (TEXT)
+- `email` : Adresse e-mail de l'utilisateur (TEXT)
+- `message` : Message de l'utilisateur (TEXT)
+- `submission_date` : Date et heure de la soumission (TIMESTAMP)
+
+Les données peuvent être consultées en utilisant un outil comme **DB Browser for SQLite** ou via des requêtes SQL.
+
+--- 
+### 🗂️ Structure du projet
+
+```bash
+Copy code
+📦 form-automation
+├── 📂 data
+│   └── form_data.db
+├── form_automation.py
+├── requirements.txt
+└── README.md
+```
 
 ### 🛠 **Technologies utilisées**
 - **Python** 🐍 : Langage de programmation principal.
@@ -27,6 +50,7 @@ Avant de commencer, assurez-vous d'avoir installé :
 - **ChromeDriver** (compatible avec votre version de Chrome)
 
 ---
+
 
 ### 📦 **Installation**
 Clonez le dépôt et installez les dépendances :
