@@ -6,7 +6,9 @@
 ![GitHub](https://img.shields.io/badge/Version-1.0-lightgrey?style=for-the-badge&logo=github)
 
 ---
-
+## 🎥 Démonstration
+Cliquez ici pour visionner la vidéo de démonstration de l'automatisation du formulaire :
+👉 [Visionner la vidéo](https://akamidev.github.io/TEST_FORM/)
 ## 🌟 **Introduction**
 Ce projet est un exemple d'automatisation d'un formulaire de contact sur un site web personnel. Utilisant **Selenium WebDriver** en combinaison avec **Python**, le script remplit automatiquement les champs du formulaire et soumet les données.
 
