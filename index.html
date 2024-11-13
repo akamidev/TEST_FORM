@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+  <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -9,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <style>
+        /* Styles généraux */
         body {
             margin: 0;
             padding: 0;
@@ -21,6 +23,7 @@
             justify-content: center;
             height: 100vh;
         }
+
         h1 {
             font-size: 2.5em;
             margin-bottom: 20px;
@@ -29,10 +32,12 @@
             align-items: center;
             gap: 10px;
         }
+
         h1 .icon {
             color: #ff4081;
             font-size: 1.2em;
         }
+
         .video-container {
             width: 90%;
             max-width: 800px;
@@ -41,18 +46,45 @@
             overflow: hidden;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
         }
+
         video {
             width: 100%;
             height: auto;
         }
+
         footer {
             margin-top: 20px;
             color: #999;
         }
+
         footer a {
             color: #ff4081;
             text-decoration: none;
             font-weight: 600;
+        }
+
+        /* Styles responsive pour les écrans de moins de 600 px */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.5em;
+                gap: 5px;
+            }
+
+            h1 .icon {
+                font-size: 1em;
+            }
+
+            .video-container {
+                width: 95%;
+                max-width: 100%;
+                border-width: 1px;
+                border-radius: 5px;
+                padding: 5px ;
+            }
+
+            footer {
+                font-size: 0.8em;
+            }
         }
     </style>
 </head>
