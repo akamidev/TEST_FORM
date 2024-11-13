@@ -90,25 +90,33 @@ Enregistre les données dans une base de données SQLite.
 🔍 Automatisation du formulaire : Remplit et soumet automatiquement les champs du formulaire.
 🗄️ Enregistrement des données : Sauvegarde les données d'inscription dans une base SQLite.
 📸 Capture d'écran : Prend une capture d'écran après soumission.
+
 ## 🛑 Problèmes connus
+
 Si la version de ChromeDriver ne correspond pas à celle de votre navigateur, vous obtiendrez une erreur SessionNotCreatedException.
 Les formulaires utilisant des champs cachés ou des captchas peuvent bloquer l'automatisation.
 ## 🛠️ Améliorations futures
 Ajouter un test automatisé pour vérifier le bon enregistrement des données dans la base de données.
 Ajouter un gestionnaire d'exception pour les formulaires protégés par des captchas.
+
 ## 🤝 Contribuer
+
 Les contributions sont les bienvenues ! Suivez les étapes ci-dessous pour contribuer :
 
 ## Fork le projet.
+
 Clonez votre fork : git clone https://github.com/votre-nom-utilisateur/form-automation.git
 Créez une branche : git checkout -b ma-nouvelle-fonctionnalite
 Commit vos changements : git commit -m 'Ajout de fonctionnalité'
 Push vers votre fork : git push origin ma-nouvelle-fonctionnalite
 Ouvrez une Pull Request.
+
 ### 📄 Licence
-Ce projet est sous [licence]() MIT.
+
+Ce projet est sous [licence](https://github.com/akamidev/TEST_FORM/blob/main/LICENSE) MIT.
 
 ### 📬 Contact
+
 Pour toute question, n'hésitez pas à me contacter :
 
 - **💼 [LinkedIn](https://www.linkedin.com/in/akami-mehdi/)**
