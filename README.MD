@@ -7,12 +7,16 @@
 
 ---
 
-## 🎥 Démonstration
+## 🎥 **Démonstration**
 
-Cliquez ici pour visionner la vidéo de démonstration de l'automatisation du formulaire :
-👉 [Visionner la vidéo](https://akamidev.github.io/TEST_FORM/)
+Cliquez sur l'image ci-dessous pour visionner la vidéo de démonstration de mon projet **LAPCOM** :
+
+<a href="https://akamidev.github.io/TEST_FORM/">
+    <img src="./Photo1.png" alt="Aperçu de la vidéo" width="400">
+</a>
 
 ---
+
 
 ## 🌟 **Introduction**
 
