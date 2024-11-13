@@ -6,15 +6,22 @@
 ![GitHub](https://img.shields.io/badge/Version-1.0-lightgrey?style=for-the-badge&logo=github)
 
 ---
+
 ## 🎥 Démonstration
+
 Cliquez ici pour visionner la vidéo de démonstration de l'automatisation du formulaire :
 👉 [Visionner la vidéo](https://akamidev.github.io/TEST_FORM/)
+
 ---
+
 ## 🌟 **Introduction**
+
 Ce projet est un exemple d'automatisation d'un formulaire de contact sur un site web personnel. Utilisant **Selenium WebDriver** en combinaison avec **Python**, le script remplit automatiquement les champs du formulaire et soumet les données.
 
 ---
+
 ### 🗄️ **Stockage des données**
+
 Les informations soumises via le formulaire sont stockées dans une base de données **SQLite** (`form_data.db`). La base de données contient une table appelée `form_submissions` avec les champs suivants :
 
 - `id` : Identifiant unique (INTEGER, PRIMARY KEY)
@@ -26,6 +33,7 @@ Les informations soumises via le formulaire sont stockées dans une base de donn
 Les données peuvent être consultées en utilisant un outil comme **DB Browser for SQLite** ou via des requêtes SQL.
 
 --- 
+
 ### 🗂️ Structure du projet
 
 ```bash
@@ -39,6 +47,7 @@ Copy code
 ```
 
 ### 🛠 **Technologies utilisées**
+
 - **Python** 🐍 : Langage de programmation principal.
 - **Selenium WebDriver** 🌐 : Outil d'automatisation pour le navigateur.
 - **SQLite** 🗄️ : Base de données pour stocker les informations soumises.
@@ -77,7 +86,7 @@ Le script :
 - **Accède au formulaire de contact [Ici](https://akamimehdi.netlify.app/Contact).**
 
 - **Remplit automatiquement les champs** :
-- 
+
 Nom
 Email
 Message
@@ -103,7 +112,7 @@ Ajouter un gestionnaire d'exception pour les formulaires protégés par des capt
 
 Les contributions sont les bienvenues ! Suivez les étapes ci-dessous pour contribuer :
 
-## Fork le projet.
+## Fork le projet
 
 Clonez votre fork : git clone https://github.com/votre-nom-utilisateur/form-automation.git
 Créez une branche : git checkout -b ma-nouvelle-fonctionnalite
@@ -122,5 +131,10 @@ Pour toute question, n'hésitez pas à me contacter :
 - **💼 [LinkedIn](https://www.linkedin.com/in/akami-mehdi/)**
 - **🐦 [Portfolio](https://akamimehdi.netlify.app/)**
 - **📧 Email : akamimehdi.dev@gmail.com**
-- **⭐ N'oubliez pas de laisser une étoile si ce projet vous a aidé ! ⭐**
+
+---
+
+ **⭐ N'oubliez pas de laisser une étoile si ce projet vous a aidé ! ⭐**
+
+---
 
